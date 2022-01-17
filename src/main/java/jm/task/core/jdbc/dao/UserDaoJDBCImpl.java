@@ -3,14 +3,10 @@ package jm.task.core.jdbc.dao;
 import jm.task.core.jdbc.model.User;
 import jm.task.core.jdbc.util.Util;
 
-import java.io.InputStream;
-import java.io.Reader;
-import java.math.BigDecimal;
-import java.net.URL;
 import java.sql.*;
 import java.sql.Connection;
 import java.util.ArrayList;
-import java.util.Calendar;
+
 import java.util.List;
 
 public class UserDaoJDBCImpl implements UserDao {
